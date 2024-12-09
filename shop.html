@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Brechó - Compre Moda Sustentável</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo.png" alt="Brechó Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Loja</a></li>
+                <li><a href="about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="shop-page">
+        <section class="shop-filters">
+            <h1>Loja de Roupas Sustentáveis</h1>
+            
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label for="category">Categoria:</label>
+                    <select id="category">
+                        <option value="">Todas</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="infantil">Infantil</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="size">Tamanho:</label>
+                    <select id="size">
+                        <option value="">Todos</option>
+                        <option value="PP">PP</option>
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="price">Preço:</label>
+                    <input type="range" id="price" min="0" max="500" step="10">
+                    <span id="price-value">R$ 0 - R$ 500</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="img/examples/shirt1.jpg" alt="Camisa Sustentável">
+                <h3>Camisa Vintage Azul</h3>
+                <p class="price">R$ 35,00</p>
+                <p class="seller">Vendido por Maria</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/examples/dress1.jpg" alt="Vestido Sustentável">
+                <h3>Vestido Floral</h3>
+                <p class="price">R$ 55,00</p>
+                <p class="seller">Vendido por João</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/examples/pants1.jpg" alt="Calça Sustentável">
+                <h3>Calça Jeans Reciclada</h3>
+                <p class="price">R$ 65,00</p>
+                <p class="seller">Vendido por Ana</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre</a>
+            <a href="#" target="_blank">Termos de Uso</a>
+        </div>
+        <div class="team-links">
+            <p>Conheça nossa equipe:</p>
+            <a href="matheus.html">Matheus</a> | 
+            <a href="yumi.html">Yumi</a>
+        </div>
+        <p class="copyright">© 2024 Brechó. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
