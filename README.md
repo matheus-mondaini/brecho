@@ -28,17 +28,20 @@ brecho/
 ├── index.html         # Homepage of the website.
 ├── about.html         # About page explaining the platform and its goals.
 ├── shop.html          # Main page for browsing and filtering thrifted items.
+├── admin.html		     # Page to register users.
 ├── matheus.html
 ├── yumi.html
 ├── css/
 │   ├── styles.css     # Main stylesheet for the project.
-│   └── reset.css      # Optional CSS reset for consistent styling.
+│   ├── reset.css      # Optional CSS reset for consistent styling.
+│   └── styles2.css    # Stylesheet for the sales page.
 ├── img/
 │   ├── logo.png       # Brechó logo.
 │   ├── hero.jpg       # Hero image for the homepage.
-│   ├── examples/      # Folder for example product images.
+│   └── examples/      # Folder for example product images.
 ├── js/
-│   └── script.js      # Script for dynamic features (e.g., filtering, navigation).
+│   ├── script.js      # Script for dynamic features (e.g., filtering, navigation).
+│   └── shop.js        # Script for dynamic features in shop.html.
 ├── README.md          # Project documentation.
 └── assets/
     └── fonts/         # Custom or web-safe fonts for typography.
